@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'GenericHttpClientLab6_Example' do
+  pod 'GenericHttpClientLab6', :path => '../'
+
+  target 'GenericHttpClientLab6_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
