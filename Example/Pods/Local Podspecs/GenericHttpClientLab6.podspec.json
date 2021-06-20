@@ -1,0 +1,22 @@
+{
+  "name": "GenericHttpClientLab6",
+  "version": "0.1.0",
+  "summary": "A short description of GenericHttpClientLab6.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Mauricio Fernández Mora/GenericHttpClientLab6",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Mauricio Fernández Mora": "mauriciofer@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Mauricio Fernández Mora/GenericHttpClientLab6.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "GenericHttpClientLab6/Classes/**/*"
+}

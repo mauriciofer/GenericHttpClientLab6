@@ -1,0 +1,6 @@
+framework module GenericHttpClientLab6 {
+  umbrella header "GenericHttpClientLab6-umbrella.h"
+
+  export *
+  module * { export * }
+}

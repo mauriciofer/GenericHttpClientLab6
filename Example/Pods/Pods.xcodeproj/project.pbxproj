@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		324F6E0C249E040B77379BFDF750BB5C /* Pods-GenericHttpClientLab6_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5165F3D198B688B6288479F4ECBF8C9 /* Pods-GenericHttpClientLab6_Tests-dummy.m */; };
+		44567B646494AB51FAF879839FE10DDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5809198390DAEAD37ED7DC62128F450B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		61AD090ED7B160D2EDDD49421E5C7502 /* GenericHttpClientLab6-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 745DF1FC8E71DACD76DAA4A2F1DA7B1B /* GenericHttpClientLab6-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		901BA305F6C2A37A0071C8FA2977D904 /* GenericHttpClientLab6-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5A260419FB737A61057C08FEDD7F3F /* GenericHttpClientLab6-dummy.m */; };
+		90FAC4140398CD141190BEADFA13B657 /* Pods-GenericHttpClientLab6_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 139BF2215D8EDF8B5C51478FCEABD592 /* Pods-GenericHttpClientLab6_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96A8B89339250F7BE5435D04AE5EE311 /* Pods-GenericHttpClientLab6_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E2D17BD4E2BA6198CB0CF164923FBCF0 /* Pods-GenericHttpClientLab6_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA583326AD0C3253FE240618EA79BB64 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6BF8141879B071FD0FFD5BD803076C /* ReplaceMe.swift */; };
+		E0581B7B1E5F8C48EC181458EA4F53E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FCED4DDA7DC2A89B26D132FC0B18C7EE /* Pods-GenericHttpClientLab6_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1734BFA8D6438B10F3702C8F8AEF327 /* Pods-GenericHttpClientLab6_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E2BEA41F2035E71B6D6E3C0D12C35FFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBC68D9FF3B63A4C743AE87F717CE6D5;
+			remoteInfo = GenericHttpClientLab6;
+		};
+		FE82A740B6AF284028A4319E1F18F8A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40B0F21DF7C11D22926E310827849BF2;
+			remoteInfo = "Pods-GenericHttpClientLab6_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		046F517508B3BA4720291ED549954B97 /* GenericHttpClientLab6.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GenericHttpClientLab6.modulemap; sourceTree = "<group>"; };
+		13767B88E15EB502B3FDA78DD67ADC9C /* Pods-GenericHttpClientLab6_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GenericHttpClientLab6_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		139BF2215D8EDF8B5C51478FCEABD592 /* Pods-GenericHttpClientLab6_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GenericHttpClientLab6_Tests-umbrella.h"; sourceTree = "<group>"; };
+		29D95A195DF02A4A39F298C024791C47 /* Pods-GenericHttpClientLab6_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GenericHttpClientLab6_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		30AA22F66DAADEF13A1AA8A23B8EBF04 /* GenericHttpClientLab6.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GenericHttpClientLab6.release.xcconfig; sourceTree = "<group>"; };
+		331EE45155E5443EBF83E9A2F0579B31 /* Pods_GenericHttpClientLab6_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GenericHttpClientLab6_Tests.framework; path = "Pods-GenericHttpClientLab6_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D813C238B99166341C1A90C2311E348 /* GenericHttpClientLab6-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GenericHttpClientLab6-prefix.pch"; sourceTree = "<group>"; };
+		3D8BED52C936A9778EBAD9CED5A39E25 /* Pods-GenericHttpClientLab6_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GenericHttpClientLab6_Example.modulemap"; sourceTree = "<group>"; };
+		4351236C9FBDB77DA46366FE0BDD1B00 /* GenericHttpClientLab6-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GenericHttpClientLab6-Info.plist"; sourceTree = "<group>"; };
+		44D1283C608715C561720AC539064CD4 /* Pods-GenericHttpClientLab6_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GenericHttpClientLab6_Tests.modulemap"; sourceTree = "<group>"; };
+		4A6BF8141879B071FD0FFD5BD803076C /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = GenericHttpClientLab6/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		575E887B84E5C27B23BE1001FB9222C4 /* Pods_GenericHttpClientLab6_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GenericHttpClientLab6_Example.framework; path = "Pods-GenericHttpClientLab6_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57D02ECE91B34D462A1B62917B66BE4F /* Pods-GenericHttpClientLab6_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GenericHttpClientLab6_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5A5D5119B31F7D04AEBD321C3EBC5EF4 /* Pods-GenericHttpClientLab6_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GenericHttpClientLab6_Tests-Info.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		745DF1FC8E71DACD76DAA4A2F1DA7B1B /* GenericHttpClientLab6-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GenericHttpClientLab6-umbrella.h"; sourceTree = "<group>"; };
+		7BD2D86A7FEDC36FFDFB7B90B33AE434 /* Pods-GenericHttpClientLab6_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GenericHttpClientLab6_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8010480E0BFCA9104F3EE0BB70445107 /* Pods-GenericHttpClientLab6_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GenericHttpClientLab6_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		86180A88595F389155EE77E9AE66987C /* GenericHttpClientLab6.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GenericHttpClientLab6.framework; path = GenericHttpClientLab6.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93D9D9AC363062E6E51AF6C5CD725178 /* Pods-GenericHttpClientLab6_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GenericHttpClientLab6_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A64483D01B2BF1FD81B55351354FEBAD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		A81FED1824724ED4538E9D70643E2F4F /* GenericHttpClientLab6.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GenericHttpClientLab6.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AAE8B7466565953649DF5B5B6957470C /* Pods-GenericHttpClientLab6_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GenericHttpClientLab6_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		BF725AF3D67D1DA0D6AC2B510CEEC90B /* Pods-GenericHttpClientLab6_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GenericHttpClientLab6_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C1734BFA8D6438B10F3702C8F8AEF327 /* Pods-GenericHttpClientLab6_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GenericHttpClientLab6_Example-dummy.m"; sourceTree = "<group>"; };
+		C23422B4857A47CC828A5B21E72E56DF /* GenericHttpClientLab6.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GenericHttpClientLab6.debug.xcconfig; sourceTree = "<group>"; };
+		D48F6D602050A7FC2D48B823DCB36D7E /* Pods-GenericHttpClientLab6_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GenericHttpClientLab6_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E2D17BD4E2BA6198CB0CF164923FBCF0 /* Pods-GenericHttpClientLab6_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GenericHttpClientLab6_Example-umbrella.h"; sourceTree = "<group>"; };
+		E3A8B6BEF628AB14EE8759D2B727B06F /* Pods-GenericHttpClientLab6_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GenericHttpClientLab6_Example-Info.plist"; sourceTree = "<group>"; };
+		E5165F3D198B688B6288479F4ECBF8C9 /* Pods-GenericHttpClientLab6_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GenericHttpClientLab6_Tests-dummy.m"; sourceTree = "<group>"; };
+		EE5A260419FB737A61057C08FEDD7F3F /* GenericHttpClientLab6-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GenericHttpClientLab6-dummy.m"; sourceTree = "<group>"; };
+		F3413F47E31A4875C3DEB1325E6BBC7E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16B5D140B05052D2D57FF1A01FB7378A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5809198390DAEAD37ED7DC62128F450B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		287E02CCE091EF9A1396310DBB917B09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0581B7B1E5F8C48EC181458EA4F53E9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFD785F1E70CD354206FA2C8020E82A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44567B646494AB51FAF879839FE10DDD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		194E648300261781ABC950CD16A95C00 /* Pods-GenericHttpClientLab6_Example */ = {
+			isa = PBXGroup;
+			children = (
+				3D8BED52C936A9778EBAD9CED5A39E25 /* Pods-GenericHttpClientLab6_Example.modulemap */,
+				8010480E0BFCA9104F3EE0BB70445107 /* Pods-GenericHttpClientLab6_Example-acknowledgements.markdown */,
+				AAE8B7466565953649DF5B5B6957470C /* Pods-GenericHttpClientLab6_Example-acknowledgements.plist */,
+				C1734BFA8D6438B10F3702C8F8AEF327 /* Pods-GenericHttpClientLab6_Example-dummy.m */,
+				D48F6D602050A7FC2D48B823DCB36D7E /* Pods-GenericHttpClientLab6_Example-frameworks.sh */,
+				E3A8B6BEF628AB14EE8759D2B727B06F /* Pods-GenericHttpClientLab6_Example-Info.plist */,
+				E2D17BD4E2BA6198CB0CF164923FBCF0 /* Pods-GenericHttpClientLab6_Example-umbrella.h */,
+				13767B88E15EB502B3FDA78DD67ADC9C /* Pods-GenericHttpClientLab6_Example.debug.xcconfig */,
+				57D02ECE91B34D462A1B62917B66BE4F /* Pods-GenericHttpClientLab6_Example.release.xcconfig */,
+			);
+			name = "Pods-GenericHttpClientLab6_Example";
+			path = "Target Support Files/Pods-GenericHttpClientLab6_Example";
+			sourceTree = "<group>";
+		};
+		2DE15EBCD491148A63D41BC30E4CA77C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E2D1A93ED0D6DD4A72E8F7FA2D037DBC /* GenericHttpClientLab6 */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		87F8C06FFBF1CDAA23C0F564234E4E80 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				046F517508B3BA4720291ED549954B97 /* GenericHttpClientLab6.modulemap */,
+				EE5A260419FB737A61057C08FEDD7F3F /* GenericHttpClientLab6-dummy.m */,
+				4351236C9FBDB77DA46366FE0BDD1B00 /* GenericHttpClientLab6-Info.plist */,
+				3D813C238B99166341C1A90C2311E348 /* GenericHttpClientLab6-prefix.pch */,
+				745DF1FC8E71DACD76DAA4A2F1DA7B1B /* GenericHttpClientLab6-umbrella.h */,
+				C23422B4857A47CC828A5B21E72E56DF /* GenericHttpClientLab6.debug.xcconfig */,
+				30AA22F66DAADEF13A1AA8A23B8EBF04 /* GenericHttpClientLab6.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GenericHttpClientLab6";
+			sourceTree = "<group>";
+		};
+		9273D87F47BF46A74CF7AA8BA4B2EE6E /* Pods-GenericHttpClientLab6_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				44D1283C608715C561720AC539064CD4 /* Pods-GenericHttpClientLab6_Tests.modulemap */,
+				7BD2D86A7FEDC36FFDFB7B90B33AE434 /* Pods-GenericHttpClientLab6_Tests-acknowledgements.markdown */,
+				93D9D9AC363062E6E51AF6C5CD725178 /* Pods-GenericHttpClientLab6_Tests-acknowledgements.plist */,
+				E5165F3D198B688B6288479F4ECBF8C9 /* Pods-GenericHttpClientLab6_Tests-dummy.m */,
+				5A5D5119B31F7D04AEBD321C3EBC5EF4 /* Pods-GenericHttpClientLab6_Tests-Info.plist */,
+				139BF2215D8EDF8B5C51478FCEABD592 /* Pods-GenericHttpClientLab6_Tests-umbrella.h */,
+				29D95A195DF02A4A39F298C024791C47 /* Pods-GenericHttpClientLab6_Tests.debug.xcconfig */,
+				BF725AF3D67D1DA0D6AC2B510CEEC90B /* Pods-GenericHttpClientLab6_Tests.release.xcconfig */,
+			);
+			name = "Pods-GenericHttpClientLab6_Tests";
+			path = "Target Support Files/Pods-GenericHttpClientLab6_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				2DE15EBCD491148A63D41BC30E4CA77C /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				FF4526EF502DEFA08D887EC21F69EA9D /* Products */,
+				DECC957EEE32DDDC5ED106A49AB19B70 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DECC957EEE32DDDC5ED106A49AB19B70 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				194E648300261781ABC950CD16A95C00 /* Pods-GenericHttpClientLab6_Example */,
+				9273D87F47BF46A74CF7AA8BA4B2EE6E /* Pods-GenericHttpClientLab6_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E2D1A93ED0D6DD4A72E8F7FA2D037DBC /* GenericHttpClientLab6 */ = {
+			isa = PBXGroup;
+			children = (
+				4A6BF8141879B071FD0FFD5BD803076C /* ReplaceMe.swift */,
+				FDAAA8E0703300B8D4D9B92A5223EF89 /* Pod */,
+				87F8C06FFBF1CDAA23C0F564234E4E80 /* Support Files */,
+			);
+			name = GenericHttpClientLab6;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		FDAAA8E0703300B8D4D9B92A5223EF89 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A81FED1824724ED4538E9D70643E2F4F /* GenericHttpClientLab6.podspec */,
+				A64483D01B2BF1FD81B55351354FEBAD /* LICENSE */,
+				F3413F47E31A4875C3DEB1325E6BBC7E /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		FF4526EF502DEFA08D887EC21F69EA9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86180A88595F389155EE77E9AE66987C /* GenericHttpClientLab6.framework */,
+				575E887B84E5C27B23BE1001FB9222C4 /* Pods_GenericHttpClientLab6_Example.framework */,
+				331EE45155E5443EBF83E9A2F0579B31 /* Pods_GenericHttpClientLab6_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4B641C49E5CC75C027FFAA670FDBD13D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90FAC4140398CD141190BEADFA13B657 /* Pods-GenericHttpClientLab6_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5599AF15BB288E4B83BBDB50EFA46313 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61AD090ED7B160D2EDDD49421E5C7502 /* GenericHttpClientLab6-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F32BC9152E8B20663A8475E9D6210D0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96A8B89339250F7BE5435D04AE5EE311 /* Pods-GenericHttpClientLab6_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		34F69C1978D28E89C710AA1117F33C2B /* Pods-GenericHttpClientLab6_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7396ADD027AED08082BB028B9926DD05 /* Build configuration list for PBXNativeTarget "Pods-GenericHttpClientLab6_Tests" */;
+			buildPhases = (
+				4B641C49E5CC75C027FFAA670FDBD13D /* Headers */,
+				9D930518D5461C6D8B48ECC3E751F8DD /* Sources */,
+				DFD785F1E70CD354206FA2C8020E82A4 /* Frameworks */,
+				E5E4DB6830384BA5BF0ED3E876B29B4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7E8E862A61AE5F39BA61904AD4B4DDD /* PBXTargetDependency */,
+			);
+			name = "Pods-GenericHttpClientLab6_Tests";
+			productName = "Pods-GenericHttpClientLab6_Tests";
+			productReference = 331EE45155E5443EBF83E9A2F0579B31 /* Pods_GenericHttpClientLab6_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		40B0F21DF7C11D22926E310827849BF2 /* Pods-GenericHttpClientLab6_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CC2340A1B20538954DE685E4B04AF8D /* Build configuration list for PBXNativeTarget "Pods-GenericHttpClientLab6_Example" */;
+			buildPhases = (
+				9F32BC9152E8B20663A8475E9D6210D0 /* Headers */,
+				F079110AD14D4ABC3FCDD6D968EC28ED /* Sources */,
+				16B5D140B05052D2D57FF1A01FB7378A /* Frameworks */,
+				A76B3C13CC2A144FFE97C7FB58AF4FED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDB093B1F1787673F814A296B85EE415 /* PBXTargetDependency */,
+			);
+			name = "Pods-GenericHttpClientLab6_Example";
+			productName = "Pods-GenericHttpClientLab6_Example";
+			productReference = 575E887B84E5C27B23BE1001FB9222C4 /* Pods_GenericHttpClientLab6_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EBC68D9FF3B63A4C743AE87F717CE6D5 /* GenericHttpClientLab6 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60961D0147BDAC55B615327D6D30E4B5 /* Build configuration list for PBXNativeTarget "GenericHttpClientLab6" */;
+			buildPhases = (
+				5599AF15BB288E4B83BBDB50EFA46313 /* Headers */,
+				D2D8E8966CE7480CC0300AB40C6BDFA1 /* Sources */,
+				287E02CCE091EF9A1396310DBB917B09 /* Frameworks */,
+				46EBA0F571EC8E47DA8B69A7AAA9C7C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GenericHttpClientLab6;
+			productName = GenericHttpClientLab6;
+			productReference = 86180A88595F389155EE77E9AE66987C /* GenericHttpClientLab6.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = FF4526EF502DEFA08D887EC21F69EA9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBC68D9FF3B63A4C743AE87F717CE6D5 /* GenericHttpClientLab6 */,
+				40B0F21DF7C11D22926E310827849BF2 /* Pods-GenericHttpClientLab6_Example */,
+				34F69C1978D28E89C710AA1117F33C2B /* Pods-GenericHttpClientLab6_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46EBA0F571EC8E47DA8B69A7AAA9C7C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A76B3C13CC2A144FFE97C7FB58AF4FED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5E4DB6830384BA5BF0ED3E876B29B4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D930518D5461C6D8B48ECC3E751F8DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				324F6E0C249E040B77379BFDF750BB5C /* Pods-GenericHttpClientLab6_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2D8E8966CE7480CC0300AB40C6BDFA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				901BA305F6C2A37A0071C8FA2977D904 /* GenericHttpClientLab6-dummy.m in Sources */,
+				DA583326AD0C3253FE240618EA79BB64 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F079110AD14D4ABC3FCDD6D968EC28ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCED4DDA7DC2A89B26D132FC0B18C7EE /* Pods-GenericHttpClientLab6_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDB093B1F1787673F814A296B85EE415 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GenericHttpClientLab6;
+			target = EBC68D9FF3B63A4C743AE87F717CE6D5 /* GenericHttpClientLab6 */;
+			targetProxy = E2BEA41F2035E71B6D6E3C0D12C35FFA /* PBXContainerItemProxy */;
+		};
+		D7E8E862A61AE5F39BA61904AD4B4DDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GenericHttpClientLab6_Example";
+			target = 40B0F21DF7C11D22926E310827849BF2 /* Pods-GenericHttpClientLab6_Example */;
+			targetProxy = FE82A740B6AF284028A4319E1F18F8A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1057CA95547BAEBF85190106EB972331 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C23422B4857A47CC828A5B21E72E56DF /* GenericHttpClientLab6.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GenericHttpClientLab6/GenericHttpClientLab6-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GenericHttpClientLab6/GenericHttpClientLab6-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GenericHttpClientLab6/GenericHttpClientLab6.modulemap";
+				PRODUCT_MODULE_NAME = GenericHttpClientLab6;
+				PRODUCT_NAME = GenericHttpClientLab6;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		468B172B19CCB37F803A7437E75D4547 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13767B88E15EB502B3FDA78DD67ADC9C /* Pods-GenericHttpClientLab6_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GenericHttpClientLab6_Example/Pods-GenericHttpClientLab6_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GenericHttpClientLab6_Example/Pods-GenericHttpClientLab6_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8E66B849DE0E28BECF181A551DBB797A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF725AF3D67D1DA0D6AC2B510CEEC90B /* Pods-GenericHttpClientLab6_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GenericHttpClientLab6_Tests/Pods-GenericHttpClientLab6_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GenericHttpClientLab6_Tests/Pods-GenericHttpClientLab6_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D4C98A9F253932E5724CD3EA02463ED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30AA22F66DAADEF13A1AA8A23B8EBF04 /* GenericHttpClientLab6.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GenericHttpClientLab6/GenericHttpClientLab6-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GenericHttpClientLab6/GenericHttpClientLab6-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GenericHttpClientLab6/GenericHttpClientLab6.modulemap";
+				PRODUCT_MODULE_NAME = GenericHttpClientLab6;
+				PRODUCT_NAME = GenericHttpClientLab6;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D7F400A0F594553584EC8E94C1AAFAF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29D95A195DF02A4A39F298C024791C47 /* Pods-GenericHttpClientLab6_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GenericHttpClientLab6_Tests/Pods-GenericHttpClientLab6_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GenericHttpClientLab6_Tests/Pods-GenericHttpClientLab6_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E638CA939F188939942565A212FDC04E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57D02ECE91B34D462A1B62917B66BE4F /* Pods-GenericHttpClientLab6_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GenericHttpClientLab6_Example/Pods-GenericHttpClientLab6_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GenericHttpClientLab6_Example/Pods-GenericHttpClientLab6_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60961D0147BDAC55B615327D6D30E4B5 /* Build configuration list for PBXNativeTarget "GenericHttpClientLab6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1057CA95547BAEBF85190106EB972331 /* Debug */,
+				D4C98A9F253932E5724CD3EA02463ED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7396ADD027AED08082BB028B9926DD05 /* Build configuration list for PBXNativeTarget "Pods-GenericHttpClientLab6_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7F400A0F594553584EC8E94C1AAFAF5 /* Debug */,
+				8E66B849DE0E28BECF181A551DBB797A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CC2340A1B20538954DE685E4B04AF8D /* Build configuration list for PBXNativeTarget "Pods-GenericHttpClientLab6_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				468B172B19CCB37F803A7437E75D4547 /* Debug */,
+				E638CA939F188939942565A212FDC04E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
