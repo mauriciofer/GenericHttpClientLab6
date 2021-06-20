@@ -14,7 +14,10 @@
 		901BA305F6C2A37A0071C8FA2977D904 /* GenericHttpClientLab6-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5A260419FB737A61057C08FEDD7F3F /* GenericHttpClientLab6-dummy.m */; };
 		90FAC4140398CD141190BEADFA13B657 /* Pods-GenericHttpClientLab6_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 139BF2215D8EDF8B5C51478FCEABD592 /* Pods-GenericHttpClientLab6_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		96A8B89339250F7BE5435D04AE5EE311 /* Pods-GenericHttpClientLab6_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E2D17BD4E2BA6198CB0CF164923FBCF0 /* Pods-GenericHttpClientLab6_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DA583326AD0C3253FE240618EA79BB64 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6BF8141879B071FD0FFD5BD803076C /* ReplaceMe.swift */; };
+		A9E439B526800AF100848641 /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E439B426800AF100848641 /* ApiError.swift */; };
+		A9E439B726800B0100848641 /* NetworkGeneric.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E439B626800B0100848641 /* NetworkGeneric.swift */; };
+		A9E439B926800B0D00848641 /* GenericHttpClientLab6.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E439B826800B0D00848641 /* GenericHttpClientLab6.swift */; };
+		A9E439BD26800B9D00848641 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E439BC26800B9D00848641 /* Dictionary.swift */; };
 		E0581B7B1E5F8C48EC181458EA4F53E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		FCED4DDA7DC2A89B26D132FC0B18C7EE /* Pods-GenericHttpClientLab6_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1734BFA8D6438B10F3702C8F8AEF327 /* Pods-GenericHttpClientLab6_Example-dummy.m */; };
 /* End PBXBuildFile section */
@@ -42,24 +45,27 @@
 		139BF2215D8EDF8B5C51478FCEABD592 /* Pods-GenericHttpClientLab6_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GenericHttpClientLab6_Tests-umbrella.h"; sourceTree = "<group>"; };
 		29D95A195DF02A4A39F298C024791C47 /* Pods-GenericHttpClientLab6_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GenericHttpClientLab6_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		30AA22F66DAADEF13A1AA8A23B8EBF04 /* GenericHttpClientLab6.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GenericHttpClientLab6.release.xcconfig; sourceTree = "<group>"; };
-		331EE45155E5443EBF83E9A2F0579B31 /* Pods_GenericHttpClientLab6_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GenericHttpClientLab6_Tests.framework; path = "Pods-GenericHttpClientLab6_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		331EE45155E5443EBF83E9A2F0579B31 /* Pods_GenericHttpClientLab6_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GenericHttpClientLab6_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D813C238B99166341C1A90C2311E348 /* GenericHttpClientLab6-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GenericHttpClientLab6-prefix.pch"; sourceTree = "<group>"; };
 		3D8BED52C936A9778EBAD9CED5A39E25 /* Pods-GenericHttpClientLab6_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GenericHttpClientLab6_Example.modulemap"; sourceTree = "<group>"; };
 		4351236C9FBDB77DA46366FE0BDD1B00 /* GenericHttpClientLab6-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GenericHttpClientLab6-Info.plist"; sourceTree = "<group>"; };
 		44D1283C608715C561720AC539064CD4 /* Pods-GenericHttpClientLab6_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GenericHttpClientLab6_Tests.modulemap"; sourceTree = "<group>"; };
-		4A6BF8141879B071FD0FFD5BD803076C /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = GenericHttpClientLab6/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		575E887B84E5C27B23BE1001FB9222C4 /* Pods_GenericHttpClientLab6_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GenericHttpClientLab6_Example.framework; path = "Pods-GenericHttpClientLab6_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		575E887B84E5C27B23BE1001FB9222C4 /* Pods_GenericHttpClientLab6_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GenericHttpClientLab6_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		57D02ECE91B34D462A1B62917B66BE4F /* Pods-GenericHttpClientLab6_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GenericHttpClientLab6_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5A5D5119B31F7D04AEBD321C3EBC5EF4 /* Pods-GenericHttpClientLab6_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GenericHttpClientLab6_Tests-Info.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		745DF1FC8E71DACD76DAA4A2F1DA7B1B /* GenericHttpClientLab6-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GenericHttpClientLab6-umbrella.h"; sourceTree = "<group>"; };
 		7BD2D86A7FEDC36FFDFB7B90B33AE434 /* Pods-GenericHttpClientLab6_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GenericHttpClientLab6_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8010480E0BFCA9104F3EE0BB70445107 /* Pods-GenericHttpClientLab6_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GenericHttpClientLab6_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		86180A88595F389155EE77E9AE66987C /* GenericHttpClientLab6.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GenericHttpClientLab6.framework; path = GenericHttpClientLab6.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86180A88595F389155EE77E9AE66987C /* GenericHttpClientLab6.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GenericHttpClientLab6.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93D9D9AC363062E6E51AF6C5CD725178 /* Pods-GenericHttpClientLab6_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GenericHttpClientLab6_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A64483D01B2BF1FD81B55351354FEBAD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		A81FED1824724ED4538E9D70643E2F4F /* GenericHttpClientLab6.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GenericHttpClientLab6.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A64483D01B2BF1FD81B55351354FEBAD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A81FED1824724ED4538E9D70643E2F4F /* GenericHttpClientLab6.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = GenericHttpClientLab6.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A9E439B426800AF100848641 /* ApiError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ApiError.swift; path = GenericHttpClientLab6/Classes/ApiError.swift; sourceTree = "<group>"; };
+		A9E439B626800B0100848641 /* NetworkGeneric.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkGeneric.swift; path = GenericHttpClientLab6/Classes/NetworkGeneric.swift; sourceTree = "<group>"; };
+		A9E439B826800B0D00848641 /* GenericHttpClientLab6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GenericHttpClientLab6.swift; path = GenericHttpClientLab6/Classes/GenericHttpClientLab6.swift; sourceTree = "<group>"; };
+		A9E439BC26800B9D00848641 /* Dictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Dictionary.swift; path = GenericHttpClientLab6/Classes/Dictionary.swift; sourceTree = "<group>"; };
 		AAE8B7466565953649DF5B5B6957470C /* Pods-GenericHttpClientLab6_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GenericHttpClientLab6_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		BF725AF3D67D1DA0D6AC2B510CEEC90B /* Pods-GenericHttpClientLab6_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GenericHttpClientLab6_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C1734BFA8D6438B10F3702C8F8AEF327 /* Pods-GenericHttpClientLab6_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GenericHttpClientLab6_Example-dummy.m"; sourceTree = "<group>"; };
@@ -69,7 +75,7 @@
 		E3A8B6BEF628AB14EE8759D2B727B06F /* Pods-GenericHttpClientLab6_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GenericHttpClientLab6_Example-Info.plist"; sourceTree = "<group>"; };
 		E5165F3D198B688B6288479F4ECBF8C9 /* Pods-GenericHttpClientLab6_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GenericHttpClientLab6_Tests-dummy.m"; sourceTree = "<group>"; };
 		EE5A260419FB737A61057C08FEDD7F3F /* GenericHttpClientLab6-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GenericHttpClientLab6-dummy.m"; sourceTree = "<group>"; };
-		F3413F47E31A4875C3DEB1325E6BBC7E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F3413F47E31A4875C3DEB1325E6BBC7E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,9 +201,12 @@
 		E2D1A93ED0D6DD4A72E8F7FA2D037DBC /* GenericHttpClientLab6 */ = {
 			isa = PBXGroup;
 			children = (
-				4A6BF8141879B071FD0FFD5BD803076C /* ReplaceMe.swift */,
 				FDAAA8E0703300B8D4D9B92A5223EF89 /* Pod */,
 				87F8C06FFBF1CDAA23C0F564234E4E80 /* Support Files */,
+				A9E439B426800AF100848641 /* ApiError.swift */,
+				A9E439BC26800B9D00848641 /* Dictionary.swift */,
+				A9E439B826800B0D00848641 /* GenericHttpClientLab6.swift */,
+				A9E439B626800B0100848641 /* NetworkGeneric.swift */,
 			);
 			name = GenericHttpClientLab6;
 			path = ../..;
@@ -317,6 +326,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					EBC68D9FF3B63A4C743AE87F717CE6D5 = {
+						LastSwiftMigration = 1250;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -376,7 +390,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				901BA305F6C2A37A0071C8FA2977D904 /* GenericHttpClientLab6-dummy.m in Sources */,
-				DA583326AD0C3253FE240618EA79BB64 /* ReplaceMe.swift in Sources */,
+				A9E439B926800B0D00848641 /* GenericHttpClientLab6.swift in Sources */,
+				A9E439B526800AF100848641 /* ApiError.swift in Sources */,
+				A9E439B726800B0100848641 /* NetworkGeneric.swift in Sources */,
+				A9E439BD26800B9D00848641 /* Dictionary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +427,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C23422B4857A47CC828A5B21E72E56DF /* GenericHttpClientLab6.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -429,6 +447,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -622,8 +641,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -633,6 +651,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 30AA22F66DAADEF13A1AA8A23B8EBF04 /* GenericHttpClientLab6.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
