@@ -1,5 +1,5 @@
 PODS:
-  - GenericHttpClientLab6 (0.1.0)
+  - GenericHttpClientLab6 (0.1.1)
 
 DEPENDENCIES:
   - GenericHttpClientLab6 (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  GenericHttpClientLab6: 36ebf2eddb37070d4b9aeabcd136cc2666763790
+  GenericHttpClientLab6: d61f9ce1b82ed52d1c7498c9ea30fc7b16617fa8
 
 PODFILE CHECKSUM: f506385b3222fa83df5144578933a6fff88e273f
 

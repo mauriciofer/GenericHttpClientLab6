@@ -15,6 +15,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		A9E439BF26800EB200848641 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E439BE26800EB200848641 /* Post.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		78453A9655DADC02EF92FAB7 /* Pods-GenericHttpClientLab6_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenericHttpClientLab6_Example.release.xcconfig"; path = "Target Support Files/Pods-GenericHttpClientLab6_Example/Pods-GenericHttpClientLab6_Example.release.xcconfig"; sourceTree = "<group>"; };
 		994BF95C9B9A1284ACB05378 /* Pods-GenericHttpClientLab6_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenericHttpClientLab6_Tests.debug.xcconfig"; path = "Target Support Files/Pods-GenericHttpClientLab6_Tests/Pods-GenericHttpClientLab6_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A75378B3AB24912F6EDF3122 /* Pods-GenericHttpClientLab6_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenericHttpClientLab6_Example.debug.xcconfig"; path = "Target Support Files/Pods-GenericHttpClientLab6_Example/Pods-GenericHttpClientLab6_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A9E439BE26800EB200848641 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		B86FBEEC35F965CEAA23E881 /* Pods_GenericHttpClientLab6_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GenericHttpClientLab6_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C377683AC4FB0609443228AC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F6245A5112A9B808401E2175 /* GenericHttpClientLab6.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GenericHttpClientLab6.podspec; path = ../GenericHttpClientLab6.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -95,6 +97,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				A9E439BE26800EB200848641 /* Post.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -331,6 +334,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9E439BF26800EB200848641 /* Post.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
